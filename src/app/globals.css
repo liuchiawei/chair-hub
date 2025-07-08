@@ -1,8 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@plugin '@nauverse/tailwind-dot-grid-backgrounds';
-@plugin 'tailwindcss-animate';
+@plugin "@nauverse/tailwind-dot-grid-backgrounds";
 
 @custom-variant dark (&:is(.dark *));
 
