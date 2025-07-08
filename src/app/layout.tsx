@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto, Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/components/common/ThemeProvider";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -23,12 +24,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ja">
-      <body
-        className={`${roboto.variable} ${notoSansJP.variable} antialiased`}
+    <html lang="ja" suppressHydrationWarning>
+      <ThemeProvider
+        attribute="class"
+        defaultTheme="system"
+        enableSystem
+        disableTransitionOnChange
       >
-        {children}
-      </body>
+        <body className={`${roboto.variable} ${notoSansJP.variable} antialiased`}>
+          {children}
+        </body>
+      </ThemeProvider>
     </html>
   );
 }
