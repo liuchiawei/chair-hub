@@ -5,7 +5,7 @@ import Footer from "@/components/layout/footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center w-full max-w-screen bg-gray-200 dark:bg-gray-900 bg-dot-24-s-1-gray-950 dark:bg-dot-24-s-1-gray-100">
+    <div className="relative flex flex-col items-center w-full max-w-screen overflow-hidden">
       <Nav />
       <Hero />
       <Main />
