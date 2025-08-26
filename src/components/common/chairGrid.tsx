@@ -6,7 +6,7 @@ import chairsData from "@/data/chairs.json"
 import { Chair } from "@/data/type"
 
 export default function ChairGrid() {
-  const [chairs] = useState<Chair[]>(chairsData)
+  const [chairs] = useState<Chair[]>(chairsData as Chair[])
 
   return (
     <div className="w-full max-w-6xl mx-auto px-4 py-8">
@@ -16,7 +16,7 @@ export default function ChairGrid() {
             key={chair.id}
             id={chair.id}
             slug={chair.slug}
-            title={chair.name_en}
+            title={chair.name_jp}
             image={chair.image}
             year={chair.year}
             designer={chair.designer}

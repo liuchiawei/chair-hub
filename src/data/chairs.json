@@ -1,27 +1,36 @@
 [
-    {
+  {
     "id": 0,
-    "slug": "wiggle-side-chair",
-    "name_en": "Wiggle Side Chair",
-    "name_jp": "ウィグルサイドチェア",
-    "year": 1972,
-    "country": "Canada",
+    "slug": "pp503",
+    "name_en": "The Chair",
+    "name_jp": "ザ・チェア",
+    "year": 1950,
+    "country": "Denmark",
     "style": "Mid-Century Modern",
-    "designer": "Frank Gehry",
-    "description": "「ウィグル サイドチェア」は、1972年にフランク・ゲーリーによってデザインされた家具のシリーズ「Easy Edge's/イージー・エッジズ」の１つです。彼はこのシリーズを通して、段ボール素材を美しく変化させました。彫刻的な椅子でありながら、座り心地も良く、充分な強度があります。",
-    "image": "wiggle-side-chair.jpg"
+    "designer": "Hans J. Wegner",
+    "description": [
+      "これまで数多くの名作を生み出したウェグナーのチェアの中でも最も完成度が高いと言われる美しさと、数多くの逸話から世界中から愛されています。",
+      "造りは非常に繊細で家具職人として技術をマスターし、家具デザイナーとなったウェグナーだからこそのなせる業で、現在でも当時のウェグナーの意志を忠実に従い、職人の手作業により1脚ずつ丁寧に作り上げられています。",
+      "アームと背を接合しているフィンガージョイントは他に類を見ない美しさでこの椅子を語る上では重要な部分です。発表当時はウェグナー自身が「みっともない」と籐で隠していたという面白い話があったり、美しさだけではないところも人気の高い理由の一つ。",
+      "その後、フィンガージョイントの美しさが再認識され、今ではこのチェアの最大の特徴となっています。"
+    ],
+    "image": "pp503.webp"
   },
   {
     "id": 1,
-    "slug": "s27",
-    "name_en": "S27 Chair",
-    "name_jp": "S27 チェア",
-    "year": 1956,
-    "country": "United States",
-    "style": "Modern",
-    "designer": "Charles and Ray Eames",
-    "description": "バランスの取れた曲線と三本脚デザインが、空間にモダンな印象をもたらします。安定性と軽やかさを両立し、どの角度から見ても美しいプロポーション。ミニマルなデザインの中に、ミッドセンチュリーの機能美を体現しています。",
-    "image": "s27.webp"
+    "slug": "ch07",
+    "name_en": "CH07 Shell Chair",
+    "name_jp": "CH07 シェルチェア",
+    "year": 1963,
+    "country": "Denmark",
+    "style": "Mid-Century Modern",
+    "designer": "Hans J. Wegner",
+    "description": [
+      "CH07 シェルチェアは、ハンス J. ウェグナーの代表作として知られる、独創的な名作。発表から数十年後に満を持して発表された逸品です。",
+      "1963年のその発表当時、その前衛的なデザインから業界で大きな注目を集めました。ところが、その独創的デザインは、一般的には受け入れられませんでした。市場での批判的な意見を反映し、1960年代に数台しか製作されなかったCH07。ところが、1998年、カール・ハンセン＆サンが復刻すると、すぐに大きな反響を呼びました。",
+      "広げた羽のようなフォルム、先端にむかってテーパーのついたアーチを描く脚。椅子がまるで浮遊するような軽快さを与えています。そして、この椅子の要ともいえる緩やかなカーブを描く成形合板製の座面と背もたれ。張地が施され、この椅子に優れた使用感を与えています。一枚の合板から一体に成形された2本の前脚、そして、別々に製作される後ろ脚。目を見張る美しいフォルムと安定性を持つユニークな椅子となっています。"
+    ],
+    "image": "ch07.avif"
   },
   {
     "id": 2,
@@ -32,7 +41,7 @@
     "country": "Germany",
     "style": "Bauhaus",
     "designer": "Ludwig Mies van der Rohe",
-    "description": "モダン建築の巨匠ミース・ファン・デル・ローエが創り上げた、構造と美の融合体。彫刻のようなシルエットと素材の緊張感が、空間に建築的リズムをもたらす。椅子でありながら、空間そのものを設計する――永遠のデザインアイコン。",
+    "description": ["モダン建築の巨匠ミース・ファン・デル・ローエが創り上げた、構造と美の融合体。彫刻のようなシルエットと素材の緊張感が、空間に建築的リズムをもたらす。椅子でありながら、空間そのものを設計する――永遠のデザインアイコン。"],
     "image": "barcelona-chair.webp"
   },
   {
@@ -44,7 +53,7 @@
     "country": "Germany",
     "style": "Bauhaus",
     "designer": "Marcel Breuer",
-    "description": "アメリカ人デザイナーによって1946年にデザインされたラウンジチェア。実用的でやさしいフォルムをしているのが特徴です。このチェアは成形合板の特性が最大限活かされています。体に沿う形でゆるやかに曲げられ、しなやかな座り心地がとても快適です。座面が低めなので素足でくつろぐ日本の住宅にも最適。長時間座っていても疲れにくいラウンジチェアです。",
+    "description": ["アメリカ人デザイナーによって1946年にデザインされたラウンジチェア。実用的でやさしいフォルムをしているのが特徴です。このチェアは成形合板の特性が最大限活かされています。体に沿う形でゆるやかに曲げられ、しなやかな座り心地がとても快適です。座面が低めなので素足でくつろぐ日本の住宅にも最適。長時間座っていても疲れにくいラウンジチェアです。"],
     "image": "lcm.webp"
   },
   {
@@ -56,7 +65,7 @@
     "country": "Finland",
     "style": "Mid-Century Modern",
     "designer": "Eero Saarinen",
-    "description": "1929年、モダニズムが花開いた時代に生まれたラウンジチェアの傑作。彫刻のようなフォルムと無段階リクライニングが、静かで贅沢な時間を演出します。洗練された空間に、モダンデザインの原点を。",
+    "description": ["1929年、モダニズムが花開いた時代に生まれたラウンジチェアの傑作。彫刻のようなフォルムと無段階リクライニングが、静かで贅沢な時間を演出します。洗練された空間に、モダンデザインの原点を。"],
     "image": "lc4.webp"
   },
   {
@@ -68,7 +77,7 @@
     "country": "Denmark", 
     "style": "Scandinavian Modern",
     "designer": "Arne Jacobsen",
-    "description": "ミッドセンチュリーの名作として、今なお輝きを放つ正統派デザイン。直線で構成されたフレームと重厚な本革が、品格ある存在感を演出。洗練された空間に、時代を超えた価値を添える逸品です。",
+    "description": ["ミッドセンチュリーの名作として、今なお輝きを放つ正統派デザイン。直線で構成されたフレームと重厚な本革が、品格ある存在感を演出。洗練された空間に、時代を超えた価値を添える逸品です。"],
     "image": "lc3.webp"
   },
   {
@@ -80,43 +89,43 @@
     "country": "Denmark",
     "style": "Scandinavian Modern", 
     "designer": "Arne Jacobsen",
-    "description": "スチールフレームとレザーの組み合わせが、モダンで洗練された印象を演出。建築的な構造美と、ミニマルに徹したデザインが空間に品格をもたらします。ミッドセンチュリーのエッセンスを存分に感じさる、タイムレスな一脚です。",
+    "description": ["スチールフレームとレザーの組み合わせが、モダンで洗練された印象を演出。建築的な構造美と、ミニマルに徹したデザインが空間に品格をもたらします。ミッドセンチュリーのエッセンスを存分に感じさる、タイムレスな一脚です。"],
     "image": "lc2.webp"
   },
   {
     "id": 7,
     "slug": "lc1",
     "name_en": "LC1 Arm Chair",
-    "name_jp": "LC1アームチェア",
+    "name_jp": "LC1 アームチェア",
     "year": 1963,
     "country": "Finland",
     "style": "Space Age",
     "designer": "Eero Aarnio", 
-    "description": "ミッドセンチュリーの洗練された曲線が、空間に静かな華やぎをもたらす。シンプルながら存在感のあるフォルムが、上質なインテリアを格上げする。美しいデザインと機能が調和し、贅沢な時間を演出する一脚。",
+    "description": ["ミッドセンチュリーの洗練された曲線が、空間に静かな華やぎをもたらす。シンプルながら存在感のあるフォルムが、上質なインテリアを格上げする。美しいデザインと機能が調和し、贅沢な時間を演出する一脚。"],
     "image": "lc1.webp"
   },
   {
     "id": 8,
     "slug": "wassily-chair",
-    "name_en": "WASSILY Chair",
+    "name_en": "Wassily Chair",
     "name_jp": "ワシリーチェア",
     "year": 1925,
     "country": "Netherlands",
     "style": "De Stijl",
     "designer": "Gerrit Rietveld",
-    "description": "1925年、マルセル・ブロイヤーが描いた名作。無駄を削ぎ落とした、美しい構造。ミッドセンチュリーを象徴する一脚。",
+    "description": ["1925年、マルセル・ブロイヤーが描いた名作。無駄を削ぎ落とした、美しい構造。ミッドセンチュリーを象徴する一脚。"],
     "image": "wassily-chair.webp"
   },
   {
     "id": 9,
     "slug": "womb-chair",
-    "name_en": "WOMB Chair", 
+    "name_en": "Womb Chair", 
     "name_jp": "ウームチェア",
     "year": 1948,
     "country": "Finland",
     "style": "Mid-Century Modern",
     "designer": "Eero Saarinen",
-    "description": "エーロ・サーリネンが1948年に生んだ、包容のデザイン。「Womb（子宮）」の名が示すように、包容力あるフォルムが優しく包み込みます。彫刻的でなめらかな曲線は、安心感と温もりを与えるデザインの核心です。背もたれの絶妙なカーブが、体圧を分散し、至高のリラクゼーションを実現します。",
+    "description": ["エーロ・サーリネンが1948年に生んだ、包容のデザイン。「Womb（子宮）」の名が示すように、包容力あるフォルムが優しく包み込みます。彫刻的でなめらかな曲線は、安心感と温もりを与えるデザインの核心です。背もたれの絶妙なカーブが、体圧を分散し、至高のリラクゼーションを実現します。"],
     "image": "womb-chair.webp"
   },
   {
@@ -124,11 +133,13 @@
     "slug": "lcw",
     "name_en": "LCW Lounge Chair",
     "name_jp": "LCWラウンジチェア",
-    "year": 1946,
+    "year": 1945,
     "country": "United States", 
     "style": "Mid-Century Modern",
-    "designer": "Hans Wegner",
-    "description": "アメリカ人デザイナーによって1946年にデザインされたラウンジチェア。実用的でやさしいフォルムをしているのが特徴です。このチェアは成形合板の特性が最大限活かされています。体に沿う形でゆるやかに曲げられ、しなやかな座り心地がとても快適です。座面が低めなので素足でくつろぐ日本の住宅にも最適。長時間座っていても疲れにくいラウンジチェアです。",
+    "designer": "Charles & Ray Eames",
+    "description": [
+      "LCW ラウンジチェアは、チャールズ＆レイ・イームズによるモダン家具の代表作で、成形合板技術を生かした曲線美と優れた座り心地が特徴の名作椅子です。",
+      "実用的でやさしいフォルムをしているのが特徴です。このチェアは成形合板の特性が最大限活かされています。体に沿う形でゆるやかに曲げられ、しなやかな座り心地がとても快適です。座面が低めなので素足でくつろぐ日本の住宅にも最適。長時間座っていても疲れにくいラウンジチェアです。"],
     "image": "lcw.webp"
   },
   {
@@ -140,7 +151,7 @@
     "country": "United States", 
     "style": "Mid-Century Modern",
     "designer": "Charles & Ray Eames",
-    "description": "チャールズ＆レイ・イームズによってデザインされたラウンジチェア「ラ シェーズ」は、1948年にニューヨーク近代美術館のコンペのために出品した作品の１つです。ガストン・ラシェーズの「フローティングフィギュア」という彫刻作品から影響を受け制作されています。ラシェーズは、1948年に発表されて以降、デザイン史のアイコンのひとつとなっています。",
+    "description": ["チャールズ＆レイ・イームズによってデザインされたラウンジチェア「ラ シェーズ」は、1948年にニューヨーク近代美術館のコンペのために出品した作品の１つです。ガストン・ラシェーズの「フローティングフィギュア」という彫刻作品から影響を受け制作されています。ラシェーズは、1948年に発表されて以降、デザイン史のアイコンのひとつとなっています。"],
     "image": "lachaise.webp"
   },
   {
@@ -152,7 +163,10 @@
     "country": "United States",
     "style": "Mid-Century Modern",
     "designer": "Charles Eames & Eero Saarinen",
-    "description": "コンパクトで快適な読書用チェアとして開発された「オーガニック チェア」は、1940年にニューヨークのMuseum of Modern Artが主催した「住宅家具のオーガニックデザイン」コンペの一環として、チャールズ・イームズとエーロ・サーリネンによってデザインされました。オーガニックなフォルムのシェルに生地張りが施されているため、とても快適な座り心地です。また、オーガニックチェアのシリーズには背もたれの高い「オーガニック ハイバック」もあります。",
+    "description": [
+      "コンパクトで快適な読書用チェアとして開発された「オーガニック チェア」は、1940年にニューヨークのMuseum of Modern Artが主催した「住宅家具のオーガニックデザイン」コンペの一環として、チャールズ・イームズとエーロ・サーリネンによってデザインされました。",
+      "オーガニックなフォルムのシェルに生地張りが施されているため、とても快適な座り心地です。また、オーガニックチェアのシリーズには背もたれの高い「オーガニック ハイバック」もあります。"
+    ],
     "image": "organic-chair.jpg"
   },
   {
@@ -164,7 +178,7 @@
     "country": "Denmark",
     "style": "Space Age",
     "designer": "Verner Panton",
-    "description": "「ハート コーン チェア」は、1950年代後半にヴァーナー・パントンによってデザインされたハートの形をしたチェアです。エレガントなステンレススチール製のベースが、やわらかなクッションの座面を支え、快適な座り心地です。",
+    "description": ["「ハート コーン チェア」は、1950年代後半にヴァーナー・パントンによってデザインされたハートの形をしたチェアです。エレガントなステンレススチール製のベースが、やわらかなクッションの座面を支え、快適な座り心地です。"],
     "image": "heart-cone-chair.jpg"
   },
   {
@@ -176,7 +190,10 @@
     "country": "Denmark",
     "style": "Space Age",
     "designer": "Verner Panton",
-    "description": "ヴァーナー・パントンによってデザインされた「パントン チェア」は、ヴァーナー・パントンとヴィトラが1959年代から開発を始め、1967年に量産化に成功した、世界初のプラスチックによる一体成形型キャンチレバーの椅子です。パントンチェアは国際的なデザイン賞を多数受賞し、世界中の著名な美術館のコレクションにも所蔵されるなど、20世紀デザインのアイコンともいえる一脚です。パントンチェアは豊富なカラーバリエーションを取り揃えています。",
+    "description": [
+      "ヴァーナー・パントンによってデザインされた「パントン チェア」は、ヴァーナー・パントンとヴィトラが1959年代から開発を始め、1967年に量産化に成功した、世界初のプラスチックによる一体成形型キャンチレバーの椅子です。",
+      "パントンチェアは国際的なデザイン賞を多数受賞し、世界中の著名な美術館のコレクションにも所蔵されるなど、20世紀デザインのアイコンともいえる一脚です。パントンチェアは豊富なカラーバリエーションを取り揃えています。"
+    ],
     "image": "panton-chair.jpg"
   },
   {
@@ -188,7 +205,481 @@
     "country": "France",
     "style": "Mid-Century Modern",
     "designer": "Jean Prouvé",
-    "description": "フランスの建築家でありデザイナー、自らを「Constructeur（建設家）」と称したジャン・プルーヴェによる「スタンダード」は、彼のデザイン哲学を象徴する名作チェアです。特徴的なスチール製フレームは7種類、座面と背もたれは3種類の木材から選べ、空間や好みに合わせて自由に組み合わせることができます。",
+    "description": [
+      "フランスの建築家でありデザイナー、自らを「Constructeur（建設家）」と称したジャン・プルーヴェによる「スタンダード」は、彼のデザイン哲学を象徴する名作チェアです。特徴的なスチール製フレームは7種類、座面と背もたれは3種類の木材から選べ、空間や好みに合わせて自由に組み合わせることができます。"
+    ],
     "image": "standard-chair.jpg"
+  },
+  {
+    "id": 16,
+    "slug": "ch445",
+    "name_en": "CH445 Wing Chair",
+    "name_jp": "CH445 ウィングチェア",
+    "year": 1960,
+    "country": "Denmark",
+    "style": "Mid-Century Modern",
+    "designer": "Hans J. Wegner",
+    "description": [
+      "CH445 ウィングチェアは、ハンス J. ウェグナーの独自の才能と美的センスが映えるラウンジチェア。一見してわかるクラフトマンシップと使い込むほどに実感できるティテールが見事です。脚はステンレスのみになります。",
+      "全体を覆う張り加工が美しいラウンジチェア。フレームには無垢のビーチ材、脚には手加工で仕上げたステンレススチールが用いられています。目を見張るドラマチックで、彫刻的なシルエット。素材とフォルムに深い造詣を持つ、ウェグナーの典型的なデザインと言えます。",
+      "この椅子におけるウェグナーの洗練されたビジョンは、じっくり見ると分かります。例えば、様々な姿勢で座ることを考慮した背と座。背と肩、そして首と頭を心地よくサポートするようデザインされています。脚は前方を少し高くすることで、この椅子に心地よい理想的な傾斜をつけています。"
+    ],
+    "image": "ch445.png"
+  },
+  {
+    "id": 17,
+    "slug": "ch25",
+    "name_en": "CH25 Lounge Chair",
+    "name_jp": "CH25 ラウンジチェア",
+    "year": 1934,
+    "country": "Denmark",
+    "style": "Mid-Century Modern",
+    "designer": "Hans J. Wegner",
+    "description": [
+      "CH25は、ハンス J. ウェグナーが当時のカール・ハンセン＆サンの社長宅に3週間滞在し、開発した最初の椅子シリーズの一つ。1950年に発表されカール・ハンセン＆サンの新しい流れを作ったシリーズです。それまでになかった大胆で彫刻的なフォルムから、当時は革新的なデザインと評価されました。フォルムばかりでなく、素材にもウェグナーは新しい試みをしています。戦時中の物資不足の中で使用されていた、あまり一般に知られていなかったペーパーコードをこの椅子の座と背に使用。この素材にウェグナーは十分な耐久性と美しさを見出しました。その後多くの人々がこのペーパーコードに魅了されたのは言うまではありません。",
+      "そしてラウンジチェア CH25は、発表以来人気を博し、途切れることなく生産されています。まさにウェグナーのビジョンが時代よりも先を見据えていたことの証です。",
+      "座と背のペーパーコードは熟練した職人でも1脚仕上げるのに、10時間を要します。使用されるペーパーコードは400メートル。2本のペーパーコードで張っていく、耐久に優れた独自の張り方が美しい模様を創り出しています。"
+    ],
+    "image": "ch25.jpg"
+  },
+  {
+    "id": 18,
+    "slug": "ch24",
+    "name_en": "CH24 Y Chair",
+    "name_jp": "CH24 Y チェア",
+    "year": 1949,
+    "country": "Denmark",
+    "style": "Mid-Century Modern",
+    "designer": "Hans J. Wegner",
+    "description": [
+      "Yチェアとして知られるCH24、ハンス J. ウェグナーがカール・ハンセン＆サン用にデザインし、1950年からずっと生産されている名作です。その斬新なフォルムからモダンデザインの名作として世界的に知られてきました。",
+      "CH24のデザインにおいてウェグナーは、アームと背もたれを一体にするという、それまでの椅子デザインに見られなかった斬新な試みをしています。そしてこの曲木製のアームに安定性と心地よい使用感を与えるのが、印象的なY字形の背もたれ。この形状からYチェアと呼ばれるようになりました。Yチェアの発端は中国の椅子に座るデンマーク商人の肖像画。商人が座る明代の椅子がデザインの起源となっています。素晴らしい使用感と使い勝手、そして特徴的なラインを描く美しいフォルム。椅子に求められる機能性と見た目の美しさを同時に満たす椅子、と多くの人が評価するCH24、Yチェア。まさに、デニッシュモダンの真髄と言えます。",
+      "CH24の完成に必要な製作工程は100以上。しかもそのほとんどが職人の手を通して作られています。座面にペーパーコードを張る作業は、熟練した職人でも1時間を要する重要な工程。1脚あたり、120メートルの強度と耐久性に優れたペーパーコードが使用し、長年にわたって使用できる座面を作り上げています。"
+    ],
+    "image": "ch24.png"
+  },
+  {
+    "id": 19,
+    "slug": "wiggle-side-chair",
+    "name_en": "Wiggle Side Chair",
+    "name_jp": "ウィグルサイドチェア",
+    "year": 1972,
+    "country": "Canada",
+    "style": "Mid-Century Modern",
+    "designer": "Frank Gehry",
+    "description": ["「ウィグル サイドチェア」は、1972年にフランク・ゲーリーによってデザインされた家具のシリーズ「Easy Edge's/イージー・エッジズ」の１つです。彼はこのシリーズを通して、段ボール素材を美しく変化させました。彫刻的な椅子でありながら、座り心地も良く、充分な強度があります。"],
+    "image": "wiggle-side-chair.jpg"
+  },
+  {
+    "id": 20,
+    "slug": "papa-bear-chair",
+    "name_en": "Papa Bear Chair",
+    "name_jp": "ベアーチェア",
+    "year": 1951,
+    "country": "Denmark",
+    "style": "Mid-Century Modern",
+    "designer": "Hans J. Wegner",
+    "description": [
+      "ベアチェアは、ハンス・ウェグナーが1950年にデザインし、北欧家具の名作として知られるラウンジチェアです。",
+      "クマに抱きしめられるような安心感のある座り心地が名の由来で、「テディベアチェア」「パパベア」とも呼ばれます。",
+      "人を包み込むような大きめサイズと、横座りやアームへの足乗せなど多彩な使い方ができるフリーな設計も魅力です。デザイン、座り心地、耐久性、存在感のすべてで高い評価を受けており、「北欧家具の王様」と呼ばれる象徴的存在で、ウェグナー最高傑作の一つとされています。"
+    ],
+    "image": "papa-bear-chair.webp"
+  },
+  {
+    "id": 21,
+    "slug": "wishbone-chair",
+    "name_en": "Wishbone Chair",
+    "name_jp": "ウィッシュボーンチェア",
+    "year": 1949,
+    "country": "Denmark",
+    "style": "Mid-Century Modern",
+    "designer": "Hans J. Wegner",
+    "description": ["ハンス・J・ウェグナーによるウィッシュボーンチェアは、Y字型の背もたれが特徴的なダイニングチェアです。職人の手による丁寧な仕上げと、ペーパーコードによる美しい座面編みが印象的な名作です。"],
+    "image": "wishbone-chair.jpg"
+  },
+  {
+    "id": 22,
+    "slug": "ghost-chair",
+    "name_en": "Ghost Chair",
+    "name_jp": "ゴーストチェア",
+    "year": 2002,
+    "country": "France",
+    "style": "Contemporary",
+    "designer": "Philippe Starck",
+    "description": ["フィリップ・スタルクがデザインしたゴーストチェアは、透明なポリカーボネート製のモダンな椅子です。クラシックなルイ16世スタイルの形状を現代的な素材で表現した革新的なデザインです。"],
+    "image": "ghost-chair.jpg"
+  },
+  {
+    "id": 23,
+    "slug": "masters-chair",
+    "name_en": "Masters Chair",
+    "name_jp": "マスターズチェア",
+    "year": 2010,
+    "country": "Italy",
+    "style": "Contemporary",
+    "designer": "Philippe Starck",
+    "description": ["フィリップ・スタルクとユージーン・キトニがデザインしたマスターズチェアは、3つの名作椅子のシルエットを組み合わせた革新的なデザインです。現代的な製造技術と歴史的なフォルムが融合した作品です。"],
+    "image": "masters-chair.jpg"
+  },
+  {
+    "id": 24,
+    "slug": "tolix-chair",
+    "name_en": "Tolix Chair",
+    "name_jp": "トリックスチェア",
+    "year": 1934,
+    "country": "France",
+    "style": "Industrial",
+    "designer": "Xavier Pauchard",
+    "description": ["グザヴィエ・ポシャールがデザインしたトリックスチェアは、亜鉛メッキスチール製のインダストリアルデザインの名作です。屋外使用にも適した耐久性と、シンプルで力強いフォルムが特徴です。"],
+    "image": "tolix-chair.jpg"
+  },
+  {
+    "id": 25,
+    "slug": "wishbone-chair-black",
+    "name_en": "Wishbone Chair Black",
+    "name_jp": "ウィッシュボーンチェア ブラック",
+    "year": 1950,
+    "country": "Denmark",
+    "style": "Mid-Century Modern",
+    "designer": "Hans J. Wegner",
+    "description": ["ウィッシュボーンチェアのブラック仕上げバージョン。ダークな木材仕上げが、より現代的でシックな印象を与える人気のカラーバリエーションです。"],
+    "image": "wishbone-chair-black.jpg"
+  },
+  {
+    "id": 26,
+    "slug": "acapulco-chair",
+    "name_en": "Acapulco Chair",
+    "name_jp": "アカプルコチェア",
+    "year": 1950,
+    "country": "Mexico",
+    "style": "Mid-Century Modern",
+    "designer": "Unknown Mexican Designer",
+    "description": ["メキシコで生まれたアカプルコチェアは、スチールフレームにPVCコードを編み込んだアウトドアチェアです。カラフルで軽やかなデザインが、リゾート感あふれる空間を演出します。"],
+    "image": "acapulco-chair.jpg"
+  },
+  {
+    "id": 27,
+    "slug": "eames-molded-chair",
+    "name_en": "Eames Molded Plastic Chair",
+    "name_jp": "イームズ モールドプラスチックチェア",
+    "year": 1950,
+    "country": "United States",
+    "style": "Mid-Century Modern",
+    "designer": "Charles & Ray Eames",
+    "description": ["チャールズ&レイ・イームズによる成形プラスチックチェアは、大量生産を可能にした革新的なデザインです。軽量で丈夫、そして手頃な価格を実現した現代椅子デザインの原点です。"],
+    "image": "eames-molded-chair.jpg"
+  },
+  {
+    "id": 28,
+    "slug": "bertoia-side-chair",
+    "name_en": "Bertoia Side Chair",
+    "name_jp": "ベルトイア サイドチェア",
+    "year": 1952,
+    "country": "Italy",
+    "style": "Mid-Century Modern",
+    "designer": "Harry Bertoia",
+    "description": ["ハリー・ベルトイアによるサイドチェアは、スチールワイヤーメッシュによる彫刻的な美しさを持つ椅子です。空気のように軽やかでありながら、確かな座り心地を提供します。"],
+    "image": "bertoia-side-chair.jpg"
+  },
+  {
+    "id": 29,
+    "slug": "eames-wire-chair",
+    "name_en": "Eames Wire Chair",
+    "name_jp": "イームズ ワイヤーチェア",
+    "year": 1951,
+    "country": "United States",
+    "style": "Mid-Century Modern",
+    "designer": "Charles & Ray Eames",
+    "description": ["チャールズ&レイ・イームズによるワイヤーチェアは、溶接されたスチールワイヤーによる軽やかで透明感のあるデザインが特徴です。構造の美しさと機能性を両立した名作です。"],
+    "image": "eames-wire-chair.jpg"
+  },
+  {
+    "id": 30,
+    "slug": "eames-aluminum-chair",
+    "name_en": "Eames Aluminum Group Chair",
+    "name_jp": "イームズアルミナムグループチェア",
+    "year": 1958,
+    "country": "United States",
+    "style": "Mid-Century Modern",
+    "designer": "Charles & Ray Eames",
+    "description": ["チャールズ&レイ・イームズがデザインしたアルミニウムグループチェアは、軽量性と耐久性を兼ね備えた革新的なオフィスチェアです。アルミニウムフレームとファブリックまたはレザーの組み合わせが、エレガントでモダンな印象を与えます。"],
+    "image": "eames-aluminum-chair.jpg"
+  },
+  {
+    "id": 31,
+    "slug": "tulip-chair",
+    "name_en": "Tulip Chair",
+    "name_jp": "チューリップチェア",
+    "year": 1957,
+    "country": "Finland",
+    "style": "Mid-Century Modern",
+    "designer": "Eero Saarinen",
+    "description": ["エーロ・サーリネンによってデザインされたチューリップチェアは、「脚の森を除去する」というコンセプトから生まれました。一本脚のペデスタルベースが空間をすっきりと見せ、流麗な曲線が美しいシルエットを作り出します。"],
+    "image": "tulip-chair.jpg"
+  },
+  {
+    "id": 32,
+    "slug": "ball-chair",
+    "name_en": "Ball Chair",
+    "name_jp": "ボールチェア",
+    "year": 1963,
+    "country": "Finland",
+    "style": "Space Age",
+    "designer": "Eero Aarnio",
+    "description": ["エーロ・アールニオがデザインしたボールチェアは、1960年代のスペースエイジデザインを代表する作品です。球体の中に座ることで、外部の音を遮断し、プライベート空間を作り出します。"],
+    "image": "ball-chair.jpg"
+  },
+  {
+    "id": 33,
+    "slug": "bubble-chair",
+    "name_en": "Bubble Chair",
+    "name_jp": "バブルチェア",
+    "year": 1968,
+    "country": "Finland",
+    "style": "Space Age",
+    "designer": "Eero Aarnio",
+    "description": ["透明なアクリル製の球体に座面が組み込まれたバブルチェアは、未来的でユニークなデザインが特徴です。まるで宙に浮いているような感覚を味わえる革新的な椅子として人気を博しています。"],
+    "image": "bubble-chair.jpg"
+  },
+  {
+    "id": 34,
+    "slug": "ant-chair",
+    "name_en": "Ant Chair",
+    "name_jp": "アントチェア",
+    "year": 1952,
+    "country": "Denmark",
+    "style": "Scandinavian Modern",
+    "designer": "Arne Jacobsen",
+    "description": ["アルネ・ヤコブセンがデザインしたアントチェアは、アリのような細いウエストラインが特徴的な成形合板の椅子です。軽量でスタッキングが可能な実用性と美しいフォルムを両立した名作です。"],
+    "image": "ant-chair.jpg"
+  },
+  {
+    "id": 35,
+    "slug": "series-7-chair",
+    "name_en": "Series 7 Chair",
+    "name_jp": "セブンチェア",
+    "year": 1955,
+    "country": "Denmark",
+    "style": "Scandinavian Modern",
+    "designer": "Arne Jacobsen",
+    "description": ["アルネ・ヤコブセンによるセブンチェアは、世界で最も売れた椅子として知られています。成形合板の技術を駆使した美しい曲線と、様々な空間に調和するシンプルなデザインが魅力です。"],
+    "image": "series-7-chair.jpg"
+  },
+  {
+    "id": 36,
+    "slug": "egg-chair",
+    "name_en": "Egg Chair",
+    "name_jp": "エッグチェア",
+    "year": 1958,
+    "country": "Denmark",
+    "style": "Mid-Century Modern",
+    "designer": "Arne Jacobsen",
+    "description": ["アルネ・ヤコブセンが手がけたエッグチェアは、卵のような有機的なフォルムが印象的なラウンジチェアです。体を包み込むような座り心地と、空間のアクセントとなる存在感を持ちます。"],
+    "image": "egg-chair.jpg"
+  },
+  {
+    "id": 37,
+    "slug": "swan-chair",
+    "name_en": "Swan Chair",
+    "name_jp": "スワンチェア",
+    "year": 1958,
+    "country": "Denmark",
+    "style": "Mid-Century Modern",
+    "designer": "Arne Jacobsen",
+    "description": ["白鳥のような優雅なフォルムからその名が付いたスワンチェア。アルネ・ヤコブセンが同時期にデザインしたエッグチェアと並んで、デンマークデザインの傑作として愛され続けています。"],
+    "image": "swan-chair.jpg"
+  },
+  {
+    "id": 38,
+    "slug": "peacock-chair",
+    "name_en": "Peacock Chair",
+    "name_jp": "ピーコックチェア",
+    "year": 1947,
+    "country": "Denmark",
+    "style": "Mid-Century Modern",
+    "designer": "Hans J. Wegner",
+    "description": ["ハンス・J・ウェグナーによるピーコックチェアは、孔雀の羽を思わせる背もたれのスピンドルが美しいウィンザーチェアの進化形です。伝統的な技法と現代的なデザインが見事に融合した作品です。"],
+    "image": "peacock-chair.jpg"
+  },
+  {
+    "id": 39,
+    "slug": "ox-chair",
+    "name_en": "Ox Chair",
+    "name_jp": "オックスチェア",
+    "year": 1960,
+    "country": "Denmark",
+    "style": "Mid-Century Modern",
+    "designer": "Hans J. Wegner",
+    "description": ["ハンス・J・ウェグナーがデザインしたオックスチェアは、牛のような力強いフォルムが特徴的なラウンジチェアです。厚みのあるクッションと重厚な存在感で、リラックスした時間を提供します。"],
+    "image": "ox-chair.jpg"
+  },
+  {
+    "id": 40,
+    "slug": "diamond-chair",
+    "name_en": "Diamond Chair",
+    "name_jp": "ダイヤモンドチェア",
+    "year": 1952,
+    "country": "Italy",
+    "style": "Mid-Century Modern",
+    "designer": "Harry Bertoia",
+    "description": ["ハリー・ベルトイアによるダイヤモンドチェアは、スチールワイヤーで構成された彫刻的な美しさを持つ椅子です。軽やかでありながら強度を保つ構造が、空間に洗練された印象を与えます。"],
+    "image": "diamond-chair.jpg"
+  },
+  {
+    "id": 41,
+    "slug": "coconut-chair",
+    "name_en": "Coconut Chair",
+    "name_jp": "ココナッツチェア",
+    "year": 1955,
+    "country": "United States",
+    "style": "Mid-Century Modern",
+    "designer": "George Nelson",
+    "description": ["ジョージ・ネルソンがデザインしたココナッツチェアは、ココナッツの殻を割ったような有機的なフォルムが特徴です。スチール脚と組み合わされたシェル型の座面が、ユニークで快適な座り心地を提供します。"],
+    "image": "coconut-chair.jpg"
+  },
+  {
+    "id": 42,
+    "slug": "marshmallow-sofa",
+    "name_en": "Marshmallow Sofa",
+    "name_jp": "マシュマロソファ",
+    "year": 1956,
+    "country": "United States",
+    "style": "Mid-Century Modern",
+    "designer": "George Nelson",
+    "description": ["ジョージ・ネルソンによるマシュマロソファは、18個の円形クッションがスチールフレームに配置されたユニークなデザインです。マシュマロのような柔らかな見た目と革新的な構造が話題となった名作です。"],
+    "image": "marshmallow-sofa.jpg"
+  },
+  {
+    "id": 43,
+    "slug": "platner-arm-chair",
+    "name_en": "Platner Arm Chair",
+    "name_jp": "プラットナーアームチェア",
+    "year": 1966,
+    "country": "United States",
+    "style": "Mid-Century Modern",
+    "designer": "Warren Platner",
+    "description": ["ウォーレン・プラットナーがデザインしたアームチェアは、スチールワイヤーによる繊細で彫刻的なベースが特徴です。クッション性のある座面と背もたれが、エレガントで快適な座り心地を提供します。"],
+    "image": "platner-arm-chair.jpg"
+  },
+  {
+    "id": 44,
+    "slug": "saarinen-executive-chair",
+    "name_en": "Saarinen Executive Chair",
+    "name_jp": "サーリネンエグゼクティブチェア",
+    "year": 1950,
+    "country": "Finland",
+    "style": "Mid-Century Modern",
+    "designer": "Eero Saarinen",
+    "description": ["エーロ・サーリネンがデザインしたエグゼクティブチェアは、有機的な曲線を持つシェルと回転式ベースを組み合わせたオフィスチェアです。機能性と美しさを両立した、現代オフィス家具の原型となった作品です。"],
+    "image": "saarinen-executive-chair.jpg"
+  },
+  {
+    "id": 45,
+    "slug": "nelson-platform-bench",
+    "name_en": "Nelson Platform Bench",
+    "name_jp": "ネルソンプラットフォームベンチ",
+    "year": 1946,
+    "country": "United States",
+    "style": "Mid-Century Modern",
+    "designer": "George Nelson",
+    "description": ["ジョージ・ネルソンによるプラットフォームベンチは、シンプルな木製スラットとスチール脚を組み合わせたミニマルなデザインです。ベンチとしてだけでなく、コーヒーテーブルとしても使用できる多機能性が魅力です。"],
+    "image": "nelson-platform-bench.jpg"
+  },
+  {
+    "id": 46,
+    "slug": "cesca-chair",
+    "name_en": "Cesca Chair",
+    "name_jp": "チェスカチェア",
+    "year": 1928,
+    "country": "Germany",
+    "style": "Bauhaus",
+    "designer": "Marcel Breuer",
+    "description": ["マルセル・ブロイヤーがデザインしたチェスカチェアは、カンチレバー構造の先駆けとなった名作です。スチールチューブのフレームと藤の座面・背もたれの組み合わせが、軽やかでありながら堅牢な椅子を実現しています。"],
+    "image": "cesca-chair.jpg"
+  },
+  {
+    "id": 47,
+    "slug": "cesca-chair",
+    "name_en": "Cesca Chair",
+    "name_jp": "チェスカチェア",
+    "year": 1928,
+    "country": "Germany",
+    "style": "Bauhaus",
+    "designer": "Marcel Breuer",
+    "description": ["マルセル・ブロイヤーがデザインしたチェスカチェアは、カンチレバー構造の先駆けとなった名作です。スチールチューブのフレームと藤の座面・背もたれの組み合わせが、軽やかでありながら堅牢な椅子を実現しています。"],
+    "image": "cesca-chair.jpg"
+  },
+  {
+    "id": 48,
+    "slug": "cesca-chair",
+    "name_en": "Cesca Chair",
+    "name_jp": "チェスカチェア",
+    "year": 1928,
+    "country": "Germany",
+    "style": "Bauhaus",
+    "designer": "Marcel Breuer",
+    "description": ["マルセル・ブロイヤーがデザインしたチェスカチェアは、カンチレバー構造の先駆けとなった名作です。スチールチューブのフレームと藤の座面・背もたれの組み合わせが、軽やかでありながら堅牢な椅子を実現しています。"],
+    "image": "cesca-chair.jpg"
+  },
+  {
+    "id": 49,
+    "slug": "cesca-chair",
+    "name_en": "Cesca Chair",
+    "name_jp": "チェスカチェア",
+    "year": 1928,
+    "country": "Germany",
+    "style": "Bauhaus",
+    "designer": "Marcel Breuer",
+    "description": ["マルセル・ブロイヤーがデザインしたチェスカチェアは、カンチレバー構造の先駆けとなった名作です。スチールチューブのフレームと藤の座面・背もたれの組み合わせが、軽やかでありながら堅牢な椅子を実現しています。"],
+    "image": "cesca-chair.jpg"
+  },
+  {
+    "id": 50,
+    "slug": "cesca-chair",
+    "name_en": "Cesca Chair",
+    "name_jp": "チェスカチェア",
+    "year": 1928,
+    "country": "Germany",
+    "style": "Bauhaus",
+    "designer": "Marcel Breuer",
+    "description": ["マルセル・ブロイヤーがデザインしたチェスカチェアは、カンチレバー構造の先駆けとなった名作です。スチールチューブのフレームと藤の座面・背もたれの組み合わせが、軽やかでありながら堅牢な椅子を実現しています。"],
+    "image": "cesca-chair.jpg"
+  },
+  {
+    "id": 51,
+    "slug": "cesca-chair",
+    "name_en": "Cesca Chair",
+    "name_jp": "チェスカチェア",
+    "year": 1928,
+    "country": "Germany",
+    "style": "Bauhaus",
+    "designer": "Marcel Breuer",
+    "description": ["マルセル・ブロイヤーがデザインしたチェスカチェアは、カンチレバー構造の先駆けとなった名作です。スチールチューブのフレームと藤の座面・背もたれの組み合わせが、軽やかでありながら堅牢な椅子を実現しています。"],
+    "image": "cesca-chair.jpg"
+  },
+  {
+    "id": 52,
+    "slug": "cesca-chair",
+    "name_en": "Cesca Chair",
+    "name_jp": "チェスカチェア",
+    "year": 1928,
+    "country": "Germany",
+    "style": "Bauhaus",
+    "designer": "Marcel Breuer",
+    "description": ["マルセル・ブロイヤーがデザインしたチェスカチェアは、カンチレバー構造の先駆けとなった名作です。スチールチューブのフレームと藤の座面・背もたれの組み合わせが、軽やかでありながら堅牢な椅子を実現しています。"],
+    "image": "cesca-chair.jpg"
+  },
+  {
+    "id": 53,
+    "slug": "cesca-chair",
+    "name_en": "Cesca Chair",
+    "name_jp": "チェスカチェア",
+    "year": 1928,
+    "country": "Germany",
+    "style": "Bauhaus",
+    "designer": "Marcel Breuer",
+    "description": ["マルセル・ブロイヤーがデザインしたチェスカチェアは、カンチレバー構造の先駆けとなった名作です。スチールチューブのフレームと藤の座面・背もたれの組み合わせが、軽やかでありながら堅牢な椅子を実現しています。"],
+    "image": "cesca-chair.jpg"
   }
 ]

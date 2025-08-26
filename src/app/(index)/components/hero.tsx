@@ -137,7 +137,7 @@ function Item({ row, col, planeX, planeY, xRange, yRange, scaleRange, translateR
 }
 
 // Fill a grid of numbers to represent each app icon
-const grid = new Array(12).fill([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])
+const grid = new Array(10).fill([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])
 
 interface ItemProps {
     row: number

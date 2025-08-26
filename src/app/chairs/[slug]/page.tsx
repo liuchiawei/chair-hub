@@ -11,7 +11,7 @@ export default async function ChairDetailPage({
   params: Promise<{ slug: string }>
 }) {
   const { slug } = await params;
-  const chair = chairsData.find((c: Chair) => c.slug == slug);
+  const chair = chairsData.find((c: Chair) => c.slug === slug);
 
   if (!chair) {
     notFound();
@@ -45,6 +45,9 @@ export default async function ChairDetailPage({
           
           <div className="space-y-6">
             <div>
+              <h2 className="text-2xl text-gray-900 tracking-wide dark:text-white mb-1">
+                {chair.name_jp}
+              </h2>
               <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-2">
                 {chair.name_en}
               </h1>
@@ -53,16 +56,16 @@ export default async function ChairDetailPage({
               </p>
               <div className="flex flex-wrap gap-4 mb-6">
                 <span className="text-sm bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full">
-                  Year: {chair.year}
+                  {chair.year}
                 </span>
                 <span className="text-sm bg-gray-100 dark:bg-gray-800 px-3 py-1 rounded-full">
-                  Country: {chair.country}
+                  {chair.country}
                 </span>
                 <span className={cn(
                   "text-sm px-3 py-1 rounded-full",
                   "bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200"
                 )}>
-                  Style: {chair.style}
+                  {chair.style}
                 </span>
               </div>
             </div>
@@ -70,9 +73,11 @@ export default async function ChairDetailPage({
               <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
                 Description
               </h2>
-              <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                {chair.description}
-              </p>
+              <div className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                {chair.description.map((description, index) => (
+                  <p key={index}>{description}</p>
+                ))}
+              </div>
             </div>
           </div>
         </div>
