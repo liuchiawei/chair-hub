@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja" suppressHydrationWarning>
-      <body className={`${roboto.variable} ${notoSansJP.variable} bg-gray-50 dark:bg-gray-950 bg-dot-32-s-1-gray-950 dark:bg-dot-32-s-1-gray-100  antialiased`}>
+      <body className={`${roboto.variable} ${notoSansJP.variable} bg-gray-50 dark:bg-neutral-600 bg-dot-32-s-1-gray-950 dark:bg-dot-32-s-1-gray-100  antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

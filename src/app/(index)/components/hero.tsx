@@ -25,7 +25,7 @@ export default function Hero() {
 
     // 初期位置
     const x = useMotionValue(-200)
-    const y = useMotionValue(-250)
+    const y = useMotionValue(-100)
 
     // Transform mapping functions (動的に計算)
     const createScreenRange = (axis: keyof typeof device) => [
