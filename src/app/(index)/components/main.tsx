@@ -1,11 +1,10 @@
-import StaggerGrid from "@/components/common/staggerGrid";
-import TickerCarousel from "@/components/common/tickerCarousel";
+// import TickerCarousel from "@/components/common/tickerCarousel";
 import ChairGrid from "@/components/common/chairGrid";
 
 export default function Main() {
   return (
     <main className="w-full">
-      <TickerCarousel />
+      {/* <TickerCarousel /> */}
       <section className="py-16">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
