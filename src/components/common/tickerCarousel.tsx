@@ -17,8 +17,8 @@ export default function TickerCarousel() {
 
 const items = chairs.map((chair) => {
   return (
-    <motion.div className="size-60 item relative overflow-hidden">
-      <Image src={`/chairs/${chair.image}`} alt={chair.name} fill className="object-cover" />
+    <motion.div key={chair.id} className="size-60 item relative overflow-hidden">
+      <Image src={`/chairs/${chair.image}`} alt={chair.name_en} fill className="object-cover" />
     </motion.div>
   )
 })
