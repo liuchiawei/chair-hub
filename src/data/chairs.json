@@ -1,4 +1,16 @@
 [
+    {
+    "id": 0,
+    "slug": "wiggle-side-chair",
+    "name_en": "Wiggle Side Chair",
+    "name_jp": "ウィグルサイドチェア",
+    "year": 1972,
+    "country": "Canada",
+    "style": "Mid-Century Modern",
+    "designer": "Frank Gehry",
+    "description": "「ウィグル サイドチェア」は、1972年にフランク・ゲーリーによってデザインされた家具のシリーズ「Easy Edge's/イージー・エッジズ」の１つです。彼はこのシリーズを通して、段ボール素材を美しく変化させました。彫刻的な椅子でありながら、座り心地も良く、充分な強度があります。",
+    "image": "wiggle-side-chair.jpg"
+  },
   {
     "id": 1,
     "slug": "s27",
@@ -141,6 +153,42 @@
     "style": "Mid-Century Modern",
     "designer": "Charles Eames & Eero Saarinen",
     "description": "コンパクトで快適な読書用チェアとして開発された「オーガニック チェア」は、1940年にニューヨークのMuseum of Modern Artが主催した「住宅家具のオーガニックデザイン」コンペの一環として、チャールズ・イームズとエーロ・サーリネンによってデザインされました。オーガニックなフォルムのシェルに生地張りが施されているため、とても快適な座り心地です。また、オーガニックチェアのシリーズには背もたれの高い「オーガニック ハイバック」もあります。",
-    "image": "organic-chair.webp"
+    "image": "organic-chair.jpg"
+  },
+  {
+    "id": 13,
+    "slug": "heart-cone-chair",
+    "name_en": "Heart Cone Chair",
+    "name_jp": "ハートコーンチェア",
+    "year": 1958,
+    "country": "Denmark",
+    "style": "Space Age",
+    "designer": "Verner Panton",
+    "description": "「ハート コーン チェア」は、1950年代後半にヴァーナー・パントンによってデザインされたハートの形をしたチェアです。エレガントなステンレススチール製のベースが、やわらかなクッションの座面を支え、快適な座り心地です。",
+    "image": "heart-cone-chair.jpg"
+  },
+  {
+    "id": 14,
+    "slug": "panton-chair",
+    "name_en": "Panton Chair",
+    "name_jp": "パントンチェア",
+    "year": 1967,
+    "country": "Denmark",
+    "style": "Space Age",
+    "designer": "Verner Panton",
+    "description": "ヴァーナー・パントンによってデザインされた「パントン チェア」は、ヴァーナー・パントンとヴィトラが1959年代から開発を始め、1967年に量産化に成功した、世界初のプラスチックによる一体成形型キャンチレバーの椅子です。パントンチェアは国際的なデザイン賞を多数受賞し、世界中の著名な美術館のコレクションにも所蔵されるなど、20世紀デザインのアイコンともいえる一脚です。パントンチェアは豊富なカラーバリエーションを取り揃えています。",
+    "image": "panton-chair.jpg"
+  },
+  {
+    "id": 15,
+    "slug": "standard-chair",
+    "name_en": "Standard Chair",
+    "name_jp": "スタンダードチェア",
+    "year": 1934,
+    "country": "France",
+    "style": "Mid-Century Modern",
+    "designer": "Jean Prouvé",
+    "description": "フランスの建築家でありデザイナー、自らを「Constructeur（建設家）」と称したジャン・プルーヴェによる「スタンダード」は、彼のデザイン哲学を象徴する名作チェアです。特徴的なスチール製フレームは7種類、座面と背もたれは3種類の木材から選べ、空間や好みに合わせて自由に組み合わせることができます。",
+    "image": "standard-chair.jpg"
   }
 ]

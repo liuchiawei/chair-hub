@@ -19,22 +19,29 @@ export default function ChairCard(
 ) {
   return (
     <Link href={`/chairs/${slug}`} className={`w-full h-full min-h-60 flex flex-col justify-between border-b border-r
-    ${(id % 18 === 1 || id % 18 === 14) && "xl:col-span-2 xl:row-span-2"}`}>
+    ${(id % 18 === 0 || id % 18 === 13) && "xl:col-span-2 xl:row-span-2"}`}>
       {/* Title */}
-      <div className="w-full h-12 p-4 flex items-center border-b">
+      <div className="w-full h-12 p-4 flex items-center border-b font-bold tracking-wide">
         {title}
       </div>
-      {/* Image */}
-      <div className="w-full aspect-square relative">
-        <Image 
-          src={`/chairs/${image}`} 
-          alt={title} 
-          fill 
-          className="object-cover" 
-        />
+      {/* Image Container */}
+      <div className={`w-full relative flex justify-center items-center p-6 bg-white
+      ${(id % 18 === 0 || id % 18 === 13)
+      ? "h-full"
+      : ""}
+      `}>
+        {/* Image */}
+        <div className="w-full relative aspect-square">
+          <Image 
+            src={`/chairs/${image}`} 
+            alt={title} 
+            fill 
+            className="object-cover" 
+          />
+        </div>
       </div>
       {/* Description */}
-      <div className="w-full h-14 px-4 flex justify-between items-center border-t text-xs">
+      <div className="w-full min-h-14 px-4 flex justify-between items-center border-t text-xs">
         <div>
           {designer}
         </div>
