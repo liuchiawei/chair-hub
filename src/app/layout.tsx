@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto, Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/components/common/ThemeProvider";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -25,14 +24,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja" suppressHydrationWarning>
-      <body className={`${roboto.variable} ${notoSansJP.variable} bg-gray-50 dark:bg-neutral-600 bg-dot-32-s-1-gray-950 dark:bg-dot-32-s-1-gray-100  antialiased`}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-        >
-          {children}
-        </ThemeProvider>
+      <body className={`${roboto.variable} ${notoSansJP.variable} bg-gray-50 bg-dot-32-s-1-gray-950 antialiased`}>
+        {children}
       </body>
     </html>
   );
