@@ -5,7 +5,7 @@ export type Chair = {
   name_jp: string;
   year: number;
   country: string;
-  style: string;
+  style: string[];
   designer: string;
   description: string[];
   image: string;

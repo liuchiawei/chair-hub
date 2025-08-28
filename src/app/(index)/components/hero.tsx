@@ -78,6 +78,7 @@ export default function Hero() {
                             key={`${rowIndex}-${colIndex}`}
                             row={rowIndex}
                             col={colIndex}
+                            index={rowIndex * 12 + colIndex}
                             planeX={x}
                             planeY={y}
                             xRange={xRange}
@@ -92,7 +93,7 @@ export default function Hero() {
     )
 }
 
-function Item({ row, col, planeX, planeY, xRange, yRange, scaleRange, translateRange }: ItemProps) {
+function Item({ row, col, index, planeX, planeY, xRange, yRange, scaleRange, translateRange }: ItemProps) {
     const xOffset =
         col * (icon.size + icon.margin) +
         (row % 2) * ((icon.size + icon.margin) / 2)
@@ -108,6 +109,9 @@ function Item({ row, col, planeX, planeY, xRange, yRange, scaleRange, translateR
 
     return (
         <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.3, delay: index * 0.03 }}
             className="absolute flex justify-center items-center rounded-full bg-white contain-strict overflow-hidden shadow-md hover:shadow-xl hover:scale-105 transition-all"
             style={{
                 left: `${xOffset}px`,
@@ -142,6 +146,7 @@ const grid = new Array(10).fill([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])
 interface ItemProps {
     row: number
     col: number
+    index: number
     planeX: MotionValue<number>
     planeY: MotionValue<number>
     xRange: number[]
