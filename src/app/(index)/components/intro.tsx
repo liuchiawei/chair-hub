@@ -16,8 +16,8 @@ export default function Intro() {
         exit={{ opacity: 0, scale: 0, transition: { delay: 0, duration: 0.3 } }}
         className="w-4/5 max-w-lg aspect-square flex items-center justify-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white shadow-xl"
       >
-        <div>
-          <h1 className="text-5xl font-bold text-gray-900 text-center">{content.home.title}</h1>
+        <div className="flex flex-col gap-4">
+          <h1 className="text-5xl font-bold text-gray-900 text-center select-none uppercase">{content.home.title}</h1>
           <h2 className="text-gray-600 text-center">{content.home.description}</h2>
         </div>
         <motion.button 
