@@ -18,7 +18,7 @@ export default function ChairCard(
   }
 ) {
   return (
-    <div className={`w-full h-full min-h-60 flex flex-col justify-between border-b border-r overflow-hidden
+    <div className={`w-full h-full min-h-60 flex flex-col justify-between border-b-2 border-r-2 overflow-hidden
     ${(id % 18 === 0 || id % 18 === 13) && "xl:col-span-2 xl:row-span-2"}`}>
       {/* Title */}
       <div className="w-full h-12 p-4 flex items-center border-b text-sm font-bold tracking-wide">
