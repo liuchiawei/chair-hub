@@ -1,30 +1,34 @@
-import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle } from "@/components/ui/sheet";
 import Link from "next/link";
-import content from "@/data/content.json";
-import { Menu } from "lucide-react";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import { Home, Armchair } from "lucide-react";
 
 export default function Nav() {
   return (
-    <Sheet>
-      <SheetTrigger className="fixed top-4 right-4 z-50 cursor-pointer">
-        <Menu className="size-6" />
-      </SheetTrigger>
-      <SheetContent className="bg-background p-6 shadow-lg">
-        <SheetHeader>
-          <SheetTitle>
-            <Link href="/" className="text-5xl font-bold">
-              CHAIR HUB
+    <nav className="fixed top-6 right-6 flex gap-6 z-50">
+      <TooltipProvider>
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <Link href="/">
+              <Home className="size-6" />
             </Link>
-          </SheetTitle>
-        </SheetHeader>
-        <ul className="flex flex-col gap-4">
-          {content.nav.map((item) => (
-            <li key={item.name}>
-              <Link href={item.path}>{item.name}</Link>
-            </li>
-          ))}
-        </ul>
-      </SheetContent>
-    </Sheet>
+          </TooltipTrigger>
+          <TooltipContent>
+            <p>ホーム</p>
+          </TooltipContent>
+        </Tooltip>
+      </TooltipProvider>
+      <TooltipProvider>
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <Link href="/chairs">
+              <Armchair className="size-6" />
+            </Link>
+          </TooltipTrigger>
+          <TooltipContent>
+            <p>椅子図鑑</p>
+          </TooltipContent>
+        </Tooltip>
+      </TooltipProvider>
+    </nav>
   );
 }

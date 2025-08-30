@@ -25,7 +25,7 @@ export default function ChairCard(
         {title}
       </div>
       {/* Image Container */}
-      <div className={`w-full relative flex justify-center items-center bg-white
+      <div className={`w-full relative flex justify-center items-center bg-neutral-200/50
       ${(id % 18 === 0 || id % 18 === 13)
       ? "h-full"
       : ""}

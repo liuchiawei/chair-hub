@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja" suppressHydrationWarning>
-      <body className={`${roboto.variable} ${notoSansJP.variable} bg-neutral-100 bg-dot-32-s-1-neutral-950 antialiased`}>
+      <body className={`${roboto.variable} ${notoSansJP.variable} bg-neutral-100 bg-dot-28-s-2-neutral-400 antialiased`}>
         {children}
       </body>
     </html>

@@ -1,12 +1,10 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import Link from "next/link";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import { CardContainer, CardBody, CardItem } from "@/components/ui/3d-card";
 import Sidebar from "./components/sidebar";
 import PrevNextBtns from "./components/prevNextBtns";
 import { Chair } from "@/data/type";
 import chairsData from "@/data/chairs.json";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export default async function ChairDetailPage({
   params,
@@ -25,32 +23,45 @@ export default async function ChairDetailPage({
     <main className="w-full min-h-screen py-16">
       <div className="max-w-4xl mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          <div className="aspect-square relative overflow-hidden border-l border-t border-r lg:border-r-0 lg:border-b">
-            {chair.image && chair.image.trim() !== "" ? (
-              <Image
-                src={`/chairs/${chair.image}`}
-                alt={chair.name_en}
-                fill
-                className="object-cover"
-              />
-            ) : (
-              <div className="w-full h-full bg-gray-300 dark:bg-gray-700 flex items-center justify-center">
-                <span className="text-gray-500 dark:text-gray-400 text-xl">No Image Available</span>
-              </div>
-            )}
+          <div className="relative bg-card border-l border-t border-r lg:border-r-0 lg:border-b lg:shadow-xl">
+            <p className="w-[90%] absolute top-1/2 -translate-y-1/2 left-6 text-[96px] font-[100] leading-none text-white break-all uppercase select-none">
+              {chair.name_en}
+            </p>
+            <CardContainer className="w-full">
+              {chair.image && chair.image.trim() !== "" ? (
+                <CardBody className="relative group/card">
+                  <CardItem translateZ={80} translateY={-20} as="h1" className="absolute bottom-6 left-1/2 -translate-x-1/2 w-full text-lg text-center text-neutral-500 tracking-widest">
+                    {chair.name_jp}
+                  </CardItem>
+                  <CardItem translateZ={100} className="w-full h-full flex items-center justify-center">
+                    <Image
+                      src={`/chairs/${chair.image}`}
+                      alt={chair.name_en}
+                      width={600}
+                      height={400}
+                      className="object-cover"
+                    />
+                  </CardItem>
+                </CardBody>
+              ) : (
+                <div className="w-full h-full bg-neutral-300 flex items-center justify-center">
+                  <span className="text-neutral-500 text-xl">No Image Available</span>
+                </div>
+              )}
+            </CardContainer>
           </div>
           
-          <div className="row-span-1 lg:row-span-2 border **:data-label:text-sm **:data-label:text-gray-500 **:data-value:text-xl **:data-value:text-gray-900 **:data-value:font-semibold">
+          <div className="row-span-1 lg:row-span-2 border bg-neutral-100 **:data-label:text-sm **:data-label:text-neutral-500 **:data-value:text-xl **:data-value:text-neutral-800 **:data-value:font-semibold">
             <div className="p-6 flex flex-col gap-2 border-b ">
-              <h2 className="text-xl text-gray-900 tracking-wide">
+              <h2 className="text-xl text-neutral-800 tracking-wide">
                 {chair.name_jp}
               </h2>
-              <h1 className="text-3xl font-bold text-gray-900">
+              <h1 className="text-3xl font-bold text-neutral-800">
                 {chair.name_en}
               </h1>
             </div>
-            <div className="p-6 flex flex-col gap-6">
-              <div className="flex flex-col gap-2">
+            <div className="px-6 pt-3 pb-10 flex flex-col gap-3">
+              <div>
                 <span data-label="designer">デザイナー</span>
                 <p data-value>
                   {chair.designer}
@@ -76,11 +87,11 @@ export default async function ChairDetailPage({
                   </p>
                 ))}
               </div>
-              <div>
+              <div className="flex flex-col gap-2">
                 <h2 data-label="description">
                   説明
                 </h2>
-                <div className="flex flex-col gap-2 text-gray-700 text-justify leading-relaxed">
+                <div className="flex flex-col gap-2 text-neutral-700 text-justify leading-relaxed">
                   {chair.description.map((description, index) => (
                     <p key={index}>{description}</p>
                   ))}
@@ -94,6 +105,9 @@ export default async function ChairDetailPage({
       </div>
 
       <Sidebar chair={chair} />
+      <div className="absolute top-1/2 right-4 -translate-y-1/2 hidden lg:block">
+        <h1 className="[writing-mode:vertical-rl] text-2xl text-neutral-300 uppercase tracking-[0.4em] select-none">{chair.name_en}</h1>
+      </div>
     </main>
   );
 }

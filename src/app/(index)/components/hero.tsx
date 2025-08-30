@@ -1,11 +1,12 @@
 "use client"
 
+import { useState, useEffect } from "react"
 import { motion, MotionValue, useMotionValue, useTransform } from "motion/react"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import Image from "next/image"
 import Link from "next/link"
+import { Loader } from "lucide-react"
 import ChairData from "@/data/chairs.json"
-import { useState, useEffect } from "react"
 
 export default function Hero() {
     const [mounted, setMounted] = useState(false)
@@ -43,10 +44,11 @@ export default function Hero() {
     // サーバーサイドレンダリング時の簡単なフォールバック
     if (!mounted) {
         return (
-            <div className="device w-screen h-screen relative overflow-hidden flex items-center justify-center">
+            <div className="device w-screen h-screen relative overflow-hidden flex flex-col items-center justify-center gap-2">
+                <Loader className="size-12 text-neutral-500 animate-spin animate-infinite" />
                 <div className="text-center">
                     <div className="text-4xl font-bold text-gray-800 mb-4">Chair Hub</div>
-                    <div className="text-lg text-gray-600">Loading...</div>
+                    <div className="text-lg text-gray-600 animate-pulse">Loading...</div>
                 </div>
             </div>
         )
@@ -112,7 +114,7 @@ function Item({ row, col, index, planeX, planeY, xRange, yRange, scaleRange, tra
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3, delay: index * 0.03 }}
-            className="absolute flex justify-center items-center rounded-full bg-white contain-strict overflow-hidden shadow-md hover:shadow-xl hover:scale-105 transition-all"
+            className="absolute flex justify-center items-center rounded-full bg-neutral-50 contain-strict overflow-hidden shadow-md hover:shadow-xl hover:scale-105 transition-all"
             style={{
                 left: `${xOffset}px`,
                 top: `${yOffset}px`,

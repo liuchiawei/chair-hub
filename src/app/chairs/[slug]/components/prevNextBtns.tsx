@@ -10,7 +10,7 @@ export default function PrevNextBtns({ prevChair, nextChair }: { prevChair?: Cha
         <Tooltip>
           <TooltipTrigger>
             <Link
-              href={`/chairs/${prevChair?.slug}`}
+              href={prevChair ? `/chairs/${prevChair.slug}` : ""}
               className={`
                 size-12 bg-white/50 hover:bg-white backdrop-blur-sm border border-gray-200 rounded-full flex items-center justify-center transition-all duration-300
                 ${prevChair
@@ -29,7 +29,7 @@ export default function PrevNextBtns({ prevChair, nextChair }: { prevChair?: Cha
         <Tooltip>
           <TooltipTrigger>
             <Link
-              href={`/chairs/${nextChair?.slug}`}
+              href={nextChair ? `/chairs/${nextChair.slug}` : ""}
               className={`
                 size-12 bg-white border border-gray-200 rounded-full flex items-center justify-center transition-all duration-300
                 ${nextChair
