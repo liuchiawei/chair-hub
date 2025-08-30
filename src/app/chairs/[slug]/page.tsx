@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import type { Metadata, ResolvingMetadata } from 'next'
 import Image from "next/image";
 import { CardContainer, CardBody, CardItem } from "@/components/ui/3d-card";
 import Sidebar from "./components/sidebar";
@@ -122,4 +123,26 @@ export async function generateStaticParams() {
   return chairsData.map((chair: Chair) => ({
     slug: chair.slug
   }))
+}
+
+// 生成メタデータ
+type Props = {
+  params: Promise<{ slug: string }>
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>
+}
+ 
+export async function generateMetadata(
+  { params, searchParams }: Props,
+  parent: ResolvingMetadata
+): Promise<Metadata> {
+  // read route params
+  const { slug } = await params
+ 
+  // fetch data
+  const chair = chairsData.find((c: Chair) => c.slug === slug);
+  if (!chair) { notFound(); }
+ 
+  return {
+    title: chair.name_jp + " | Chair Hub",
+  }
 }
