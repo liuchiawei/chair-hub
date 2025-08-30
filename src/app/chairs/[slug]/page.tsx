@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import type { Metadata, ResolvingMetadata } from 'next'
+import type { Metadata } from 'next'
 import Image from "next/image";
 import { CardContainer, CardBody, CardItem } from "@/components/ui/3d-card";
 import Sidebar from "./components/sidebar";
@@ -132,8 +132,7 @@ type Props = {
 }
  
 export async function generateMetadata(
-  { params, searchParams }: Props,
-  parent: ResolvingMetadata
+  { params }: Props,
 ): Promise<Metadata> {
   // read route params
   const { slug } = await params
