@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { motion } from "motion/react";
 import { ArrowLeft, Armchair } from "lucide-react";
-import { Chair } from "@/data/type"
+import { Chair } from "@/lib/type"
 
 export default function Sidebar({ chair }: { chair: Chair }) {
   return (

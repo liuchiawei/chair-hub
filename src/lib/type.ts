@@ -7,6 +7,7 @@ export type Chair = {
   country: string;
   style: string[];
   designer: string;
+  catchphrase?: string;
   description: string[];
   image: string;
 };

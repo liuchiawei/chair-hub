@@ -129,8 +129,8 @@ function Item({ row, col, index, planeX, planeY, xRange, yRange, scaleRange, tra
             <TooltipProvider>
               <Tooltip delayDuration={600}>
                 <TooltipTrigger asChild>
-                  <Link href={`/chairs/${ChairData[(row * 12 + col) % ChairData.length].slug}`} className="w-full h-full flex justify-center items-center">
-                    <Image src={`/chairs/${ChairData[(row * 12 + col) % ChairData.length].image}`} alt={ChairData[(row * 12 + col) % ChairData.length].name_en} width={100} height={100} className="object-cover select-none touch-none" />
+                  <Link href={`/chairs/${ChairData[(row * 10 + col) % ChairData.length].slug}`} className="w-full h-full flex justify-center items-center">
+                    <Image src={`/chairs/${ChairData[(row * 10 + col) % ChairData.length].image}`} alt={ChairData[(row * 10 + col) % ChairData.length].name_en} width={100} height={100} className="object-cover select-none touch-none" />
                   </Link>
                 </TooltipTrigger>
                 <TooltipContent>
@@ -143,7 +143,7 @@ function Item({ row, col, index, planeX, planeY, xRange, yRange, scaleRange, tra
 }
 
 // Fill a grid of numbers to represent each app icon
-const grid = new Array(10).fill([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])
+const grid = new Array(10).fill([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
 
 interface ItemProps {
     row: number

@@ -3,7 +3,7 @@
 import { useState } from "react"
 import ChairCard from "./chairCard"
 import chairsData from "@/data/chairs.json"
-import { Chair } from "@/data/type"
+import { Chair } from "@/lib/type"
 
 export default function ChairGrid() {
   const [chairs] = useState<Chair[]>(chairsData as Chair[])

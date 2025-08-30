@@ -1,5 +1,10 @@
+import { Metadata } from "next";
 import Nav from "@/components/layout/nav";
 import Footer from "@/components/layout/footer";
+
+export const metadata: Metadata = {
+  title: "椅子一覧",
+}
 
 export default function ChairsLayout({
   children,
