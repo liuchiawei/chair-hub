@@ -1,0 +1,32 @@
+{
+  "nav": [
+    {
+      "name": "About",
+      "path": "/about"
+    },
+    {
+      "name": "Chairs",
+      "path": "/chairs"
+    },
+    {
+      "name": "Designers",
+      "path": "/designers"
+    }
+  ],
+  "home": {
+    "title": "Chair Hub",
+    "description": "A collection of famous designer chairs"
+  },
+  "chairs": {
+    "title": "Chairs",
+    "description": "A collection of famous designer chairs"
+  },
+  "designers": {
+    "title": "Designers",
+    "description": "A collection of famous designer chairs"
+  },
+  "about": {
+    "title": "About",
+    "description": "A collection of famous designer chairs"
+  }
+}

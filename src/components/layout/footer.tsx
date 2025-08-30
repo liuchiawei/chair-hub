@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-6">
         <div className="text-center text-sm text-muted-foreground">
           <p>
-            © {currentYear} リュウ チャーウェイ
+            © {currentYear} Chair Hub
             <br />
             All rights reserved.
           </p>
