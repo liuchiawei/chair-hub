@@ -23,10 +23,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ja">
-      <body
-        className={`${roboto.variable} ${notoSansJP.variable} antialiased`}
-      >
+    <html lang="ja" suppressHydrationWarning>
+      <body className={`${roboto.variable} ${notoSansJP.variable} bg-neutral-100 bg-dot-28-s-2-neutral-400 antialiased`}>
         {children}
       </body>
     </html>
