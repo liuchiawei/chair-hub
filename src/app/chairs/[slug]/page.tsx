@@ -3,7 +3,7 @@ import Image from "next/image";
 import { CardContainer, CardBody, CardItem } from "@/components/ui/3d-card";
 import Sidebar from "./components/sidebar";
 import PrevNextBtns from "./components/prevNextBtns";
-import { Chair } from "@/data/type";
+import { Chair } from "@/lib/type";
 import chairsData from "@/data/chairs.json";
 
 export default async function ChairDetailPage({
@@ -23,7 +23,7 @@ export default async function ChairDetailPage({
     <main className="w-full min-h-screen py-16">
       <div className="max-w-4xl mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          <div className="relative bg-card border-l border-t border-r lg:border-r-0 lg:border-b lg:shadow-xl">
+          <div className="w-full aspect-square relative bg-card border-l border-t border-r lg:border-r-0 lg:border-b lg:shadow-xl">
             <p className="w-[90%] absolute top-1/2 -translate-y-1/2 left-6 text-[96px] font-[100] leading-none text-white break-all uppercase select-none">
               {chair.name_en}
             </p>
@@ -51,7 +51,7 @@ export default async function ChairDetailPage({
             </CardContainer>
           </div>
           
-          <div className="row-span-1 lg:row-span-2 border bg-neutral-100 **:data-label:text-sm **:data-label:text-neutral-500 **:data-value:text-xl **:data-value:text-neutral-800 **:data-value:font-semibold">
+          <div className="row-span-1 lg:row-span-3 border bg-neutral-100 **:data-label:text-sm **:data-label:text-neutral-500 **:data-value:text-xl **:data-value:text-neutral-800 **:data-value:font-semibold">
             <div className="p-6 flex flex-col gap-2 border-b ">
               <h2 className="text-xl text-neutral-800 tracking-wide">
                 {chair.name_jp}
@@ -99,6 +99,11 @@ export default async function ChairDetailPage({
               </div>
             </div>
           </div>
+          {chair.catchphrase && (
+          <p className="w-2/3 px-6 mt-8 text-3xl font-[200] text-justify text-neutral-800 tracking-wide leading-relaxed">
+            {chair.catchphrase}
+          </p>
+          )}
         </div>
         
         <PrevNextBtns prevChair={prevChair || undefined} nextChair={nextChair || undefined} />

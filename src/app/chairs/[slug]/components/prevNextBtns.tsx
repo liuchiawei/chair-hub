@@ -1,4 +1,4 @@
-import { Chair } from "@/data/type";
+import { Chair } from "@/lib/type";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import Link from "next/link";

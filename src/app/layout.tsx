@@ -13,7 +13,7 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "Chair Hub",
+  title: "Chair Hub | 名作椅子図鑑",
   description: "名作椅子の図鑑です。有名デザイナーの椅子の詳細やストーリーを紹介しています。",
 };
 
