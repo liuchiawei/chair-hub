@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Chair Hub
 
-## Getting Started
+A designer chair catalog website built with **Next.js**, **shadcn/ui**, and **Motion** (Framer Motion).  
+**The layout design is inspired by Apple Watch OS** — a draggable, circular icon grid that evokes the watch face experience.
 
-First, run the development server:
+一個設計師椅子目錄網站，使用 **Next.js**、**shadcn/ui** 與 **Motion** 建構。  
+**版面設計靈感來自 Apple Watch OS** —— 可拖曳的圓形圖示網格，重現錶面般的瀏覽體驗。
+
+---
+
+## Getting Started / 開始使用
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Components / 元件清單
 
-## Learn More
+*(Excluding shadcn/ui components in `src/components/ui/`)*  
+*(不含 `src/components/ui/` 中的 shadcn/ui 元件)*
 
-To learn more about Next.js, take a look at the following resources:
+### Layout / 版面
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Component | Path | English | 繁體中文 |
+|-----------|------|---------|----------|
+| **Nav** | `layout/nav.tsx` | Fixed top-right navigation with Home and Chairs links. | 固定於右上角的導覽列，包含首頁與椅子圖鑑連結。 |
+| **Footer** | `layout/footer.tsx` | Site footer with social links (GitHub, Instagram, Mail) and copyright. | 頁尾區塊，含社群連結與版權資訊。 |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Common / 共用
 
-## Deploy on Vercel
+| Component | Path | English | 繁體中文 |
+|-----------|------|---------|----------|
+| **BackToHome** | `common/BackToHome.tsx` | Fixed "Home" link in top-right corner. | 固定於右上角的「Home」返回連結。 |
+| **TickerCarousel** | `common/tickerCarousel.tsx` | Horizontal ticker carousel of chair images powered by Motion. | 以 Motion 驅動的水平椅子圖片跑馬燈。 |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### App / 頁面專屬
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Component | Path | English | 繁體中文 |
+|-----------|------|---------|----------|
+| **Hero** | `(index)/components/hero.tsx` | Draggable grid of circular chair icons — Apple Watch OS–style home screen. | 可拖曳的圓形椅子圖示網格，仿 Apple Watch 主畫面風格。 |
+| **Intro** | `(index)/components/intro.tsx` | Full-screen intro overlay with title, description, and dismiss button. | 全螢幕介紹覆蓋層，含標題、說明與關閉按鈕。 |
+| **PrevNextBtns** | `chairs/[slug]/components/prevNextBtns.tsx` | Previous/Next navigation for chair detail pages. | 椅子詳情頁的上一張／下一張導覽按鈕。 |
+
+---
+
+## Tech Stack / 技術棧
+
+- **Next.js 15** (App Router)
+- **shadcn/ui** (Radix UI)
+- **Motion** (Framer Motion)
+- **Tailwind CSS v4**
+- **TypeScript**
